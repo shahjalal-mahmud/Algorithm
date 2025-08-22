@@ -30,7 +30,7 @@ int main()
     vector<char> inorder  = {'g','d','h','b','e','i','a','f','j','c'};
 
     unordered_map<char, int> inmap;
-    for(int i = 0; i<=inorder.size(); i++){
+    for(int i = 0; i<inorder.size(); i++){
         inmap[inorder[i]] = i;
     }
     int preIndex = 0;
